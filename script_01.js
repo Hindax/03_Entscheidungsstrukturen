@@ -69,43 +69,63 @@ isJohnEqual = (ageJohn == ageMark);
 
 /** Fallunterscheidung / SWITCH CASE */
 
-const firstName = "Jane";
-let job;
+// const firstName = "Jane";
+// let job;
 
-job = "driver";     // .. fährt TAXI! / UBER
-job = "diver";      // .. taucht im Rhein!
-job = "artist";     // .. malt ein Bild!
-job = "pilot";      // .. macht etwas anderes! --> default
-job = "teacher";    // .. unterrichtet!
-job = "instructor";  // .. unterrichtet!
+// job = "driver";     // .. fährt TAXI! / UBER
+// job = "diver";      // .. taucht im Rhein!
+// job = "artist";     // .. malt ein Bild!
+// job = "pilot";      // .. macht etwas anderes! --> default
+// job = "teacher";    // .. unterrichtet!
+// job = "instructor";  // .. unterrichtet!
 
 
-switch (job) {
-    case "driver":
-        console.log(firstName + " .. fährt TAXI!");
-        break;
+// switch (job) {
+//     case "driver":
+//         console.log(firstName + " .. fährt TAXI!");
+//         break;
     
-    case "diver":
-        console.log(firstName + " taucht im Rhein!");
+//     case "diver":
+//         console.log(firstName + " taucht im Rhein!");
+//         break;
+
+//     case "artist":
+//         console.log(firstName + " malt ein Bild!!");
+//         break;
+
+//     //case "pilot":
+//       //  console.log(firstName + " macht etwas anderes!");
+
+//     case "teacher":
+//     case "instructor":
+//         console.log(firstName + " unterrichtet!");
+//         break;
+
+
+//     default:
+//         console.log(firstName + " macht etwas anderes");
+//         break;
+// }
+
+/********  Fallunterscheidung / SWITCH|CASE 2 *******/
+
+
+const cond = false;
+const a = 1;
+
+
+switch (cond) {
+    case (a == 1):
+        console.log("a ist gleich 1")
         break;
-
-    case "artist":
-        console.log(firstName + " malt ein Bild!!");
+    case (a == 2):
+        console.log("a ist gleich 2")
         break;
-
-    //case "pilot":
-      //  console.log(firstName + " macht etwas anderes!");
-
-    case "teacher":
-    case "instructor":
-        console.log(firstName + " unterrichtet!");
-        break;
-
-
     default:
-        console.log(firstName + " macht etwas anderes");
+        console.log("a hat einen anderen Wert")
         break;
 }
+
 
 
 
